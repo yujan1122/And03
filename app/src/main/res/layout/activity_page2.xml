@@ -5,21 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".Page2">
+    
     <TextView
-        android:id="@+id/lottery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main page"
-        android:textSize="24sp"/>
+        android:text="I am page2"
+        android:textSize="20sp"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to page2"
-        android:onClick="gotoPage2"
-        />
 
 </LinearLayout>
